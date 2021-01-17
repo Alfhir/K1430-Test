@@ -1,3 +1,4 @@
+@Suppress("NON_PUBLIC_PRIMARY_CONSTRUCTOR_OF_INLINE_CLASS")
 inline class Plant @PublishedApi
 internal constructor (private val name: String) {
     override fun toString(): String = name
